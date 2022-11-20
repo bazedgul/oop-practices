@@ -7,5 +7,8 @@ public class Main {
         Teacher teacher = new Teacher(2,"Umi","Hassan",new Date(2019,5,25),10000);
         System.out.println(teacher.getInformation());
         System.out.println(teacher.CalculateBonus());
+        Teacher teacher1 = new Teacher(2,"Umi","Hassan",new Date(2021,5,25),10000);
+        System.out.println(teacher1.getInformation());
+        System.out.println(teacher1.CalculateBonus());
     }
 }
