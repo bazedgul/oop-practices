@@ -38,8 +38,8 @@ public class Student extends Person {
     @Override
     public String toString() {
         return "Student{" +
-                "Semester=" + Semester +
-                ", CGPA=" + CGPA +
+                "Semester = " + Semester +
+                ", CGPA = " + CGPA +
                 '}';
     }
 

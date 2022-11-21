@@ -10,5 +10,10 @@ public class Main {
         Teacher teacher1 = new Teacher(2,"Umi","Hassan",new Date(2021,5,25),10000);
         System.out.println(teacher1.getInformation());
         System.out.println(teacher1.CalculateBonus());
+        Course C1 = new Course("SE", teacher.getFirstName(), 3);
+        System.out.println(C1);
+        Teacher T1 = new Course("SE", teacher.getInformation(), 3);
+        System.out.println(T1);
+
     }
 }

@@ -20,7 +20,6 @@ public class Teacher extends Person {
         this.joiningDate = joiningDate;
         this.Salary = salary;
     }
-
     public Date getJoiningDate() {
         return joiningDate;
     }
@@ -51,8 +50,8 @@ public class Teacher extends Person {
                 "ID Number = " + getID() +
                 ", First Name = " + getFirstName() +
                 ", Last Name = " + getLastName() +
-                ", joiningDate=" + joiningDate +
-                ", Salary=" + Salary +
+                ", joiningDate = " + getJoiningDate() +
+                ", Salary = " + getSalary() +
                 '}';
     }
 
